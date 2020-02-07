@@ -1,0 +1,10 @@
+Host *
+  IdentitiesOnly yes
+
+Host dev
+ HostName 10.42.0.2
+ User root
+ IdentitiesOnly yes
+ IdentityFile /home/taras/.ssh/id_rsa
+ StrictHostKeyChecking no
+
